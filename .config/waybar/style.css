@@ -1,0 +1,88 @@
+@import "colors/colors.css";
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Comic Sans", "JetBrainsMono Nerd Font Propo", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    min-height: 0;
+    border-radius: 50px;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+.modules-left {
+    margin-left: 15px;
+}
+
+.modules-right {
+    margin-right: 15px;
+}
+
+#custom-launcher,
+#clock,
+#workspaces,
+#custom-notification,
+#custom-media,
+#custom-pacman,
+#custom-weather,
+#pulseaudio,
+#tray,
+#network {
+    background-color: @surface;
+    color: @surface_tint;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+#workspaces {
+    padding: 8px 5px;
+    border-radius: 16px;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    margin: 0px 3px;
+    border-radius: 50px;
+    background: @surface;
+    color: @on_surface;
+}
+
+#workspaces button.active {
+    background-color: @primary;
+    color: @on_primary;
+    min-width: 50px;
+    transition: all 0.3s ease-in-out;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+#workspaces button:hover {
+    border:none;
+    box-shadow: none;
+    background-color: @primary_container;
+    color: @on_primary_container;
+    border-radius: 16px;
+    min-width: 50px;
+    background-size: 400% 400%;
+}
+
+#workspaces button.urgent {
+    background-color: #aa1122;
+    color: #e8eaed;
+    border-radius: 16px;
+    min-width: 50px;
+    background-size: 400% 400%;
+    transition: all 0.3s ease-in-out;
+}
