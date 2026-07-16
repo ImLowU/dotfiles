@@ -1,0 +1,28 @@
+{
+    "checksum": "5fba2bfe8f01fd2038d529d7d16164e4",
+    "wallpaper": "/home/lowu/Im\u00e1genes/Wallpapers/light_monta\u00f1a_paisaje.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d2543",
+        "foreground": "#c6c8d0",
+        "cursor": "#c6c8d0"
+    },
+    "colors": {
+        "color0": "#1d2543",
+        "color1": "#2D9BFA",
+        "color2": "#39A7FA",
+        "color3": "#48B5F9",
+        "color4": "#5DB9F5",
+        "color5": "#57C5F8",
+        "color6": "#6ACFF9",
+        "color7": "#c6c8d0",
+        "color8": "#6b7084",
+        "color9": "#2D9BFA",
+        "color10": "#39A7FA",
+        "color11": "#48B5F9",
+        "color12": "#5DB9F5",
+        "color13": "#57C5F8",
+        "color14": "#6ACFF9",
+        "color15": "#c6c8d0"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "checksum": "33e95ad0c620e76c30439b2669e7f37b",
+    "wallpaper": "/home/lowu/Im\u00e1genes/Wallpapers/test.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b0c0c",
+        "foreground": "#c6c2c2",
+        "cursor": "#c6c2c2"
+    },
+    "colors": {
+        "color0": "#1b0c0c",
+        "color1": "#655025",
+        "color2": "#766746",
+        "color3": "#947738",
+        "color4": "#8E7547",
+        "color5": "#AD9255",
+        "color6": "#CFB165",
+        "color7": "#c6c2c2",
+        "color8": "#6f5b5b",
+        "color9": "#655025",
+        "color10": "#766746",
+        "color11": "#947738",
+        "color12": "#8E7547",
+        "color13": "#AD9255",
+        "color14": "#CFB165",
+        "color15": "#c6c2c2"
+    }
+}

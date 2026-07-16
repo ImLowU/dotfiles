@@ -1,0 +1,30 @@
+{
+  "wallpaper": "/home/lowu/Imágenes/Wallpapers/purple-night.jpg",
+  "alpha": "100",
+
+  "special": {
+    "background": "#151217",
+    "foreground": "#e8e0e8",
+    "cursor": "#dbb9f9"
+  },
+
+  "colors": {
+    "color0": "#100d12",
+    "color1": "#ffb4ab",
+    "color2": "#f3b7bd",
+    "color3": "#dbb9f9",
+    "color4": "#d1c1d9",
+    "color5": "#563a70",
+    "color6": "#4e4356",
+    "color7": "#cdc4ce",
+
+    "color8": "#2c292e",
+    "color9": "#93000a",
+    "color10": "#dbb9f9",
+    "color11": "#f3b7bd",
+    "color12": "#d1c1d9",
+    "color13": "#563a70",
+    "color14": "#e8e0e8",
+    "color15": "#e8e0e8"
+  }
+}
