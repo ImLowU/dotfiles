@@ -12,7 +12,7 @@
 
     background_color: Some("black"),
 
-    text_color: Some("#e0e2e8"),
+    text_color: Some("#e5e1e9"),
 
     header_background_color: Some("black"),
 
@@ -25,32 +25,32 @@
     // ==========================
 
     preview_label_style: (
-        fg: "#c2c7cf"
+        fg: "#c8c5d0"
     ),
 
     preview_metadata_group_style: (
-        fg: "#bac8db",
+        fg: "#c7c4dc",
         modifiers: "Bold"
     ),
 
     highlighted_item_style: (
-        fg: "#9ecafc",
-        bg: "#1d2024",
+        fg: "#c4c0ff",
+        bg: "#201f25",
         modifiers: "Bold"
     ),
 
     current_item_style: (
-        fg: "#003256",
-        bg: "#9ecafc",
+        fg: "#2d2960",
+        bg: "#c4c0ff",
         modifiers: "Bold"
     ),
 
     borders_style: (
-        fg: "#42474e"
+        fg: "#47464f"
     ),
 
     highlight_border_style: (
-        fg: "#9ecafc"
+        fg: "#c4c0ff"
     ),
 
     // ==========================
@@ -65,49 +65,49 @@
         ellipsis: "...",
 
         song_style: (
-            fg: "#e0e2e8"
+            fg: "#e5e1e9"
         ),
 
         song_highlighted_style: Some((
-            fg: "#9ecafc",
+            fg: "#c4c0ff",
             modifiers: "Bold"
         )),
 
         song_current_style: (
-            fg: "#003256"
+            fg: "#2d2960"
         ),
 
         dir_style: (
-            fg: "#bac8db"
+            fg: "#c7c4dc"
         ),
 
         dir_highlighted_style: None,
 
         dir_current_style: (
-            fg: "#003256"
+            fg: "#2d2960"
         ),
 
         playlist_style: (
-            fg: "#d5bee5"
+            fg: "#ebb9d0"
         ),
 
         playlist_highlighted_style: None,
 
         playlist_current_style: (
-            fg: "#003256"
+            fg: "#2d2960"
         ),
 
         marker_style: (
-            fg: "#d5bee5"
+            fg: "#ebb9d0"
         ),
 
         marker_highlighted_style: (
-            fg: "#d5bee5"
+            fg: "#ebb9d0"
         ),
 
         marker_current_style: (
-            fg: "#3a2a48",
-            bg: "#d5bee5"
+            fg: "#472638",
+            bg: "#ebb9d0"
         ),
     ),
 
@@ -117,28 +117,28 @@
 
     level_styles: (
         info: (
-            fg: "#bac8db",
-            bg: "#101418"
+            fg: "#c7c4dc",
+            bg: "#131318"
         ),
 
         warn: (
-            fg: "#d5bee5",
-            bg: "#101418"
+            fg: "#ebb9d0",
+            bg: "#131318"
         ),
 
         error: (
             fg: "#ffb4ab",
-            bg: "#101418"
+            bg: "#131318"
         ),
 
         debug: (
-            fg: "#8c9199",
-            bg: "#101418"
+            fg: "#928f99",
+            bg: "#131318"
         ),
 
         trace: (
-            fg: "#c2c7cf",
-            bg: "#101418"
+            fg: "#c8c5d0",
+            bg: "#131318"
         ),
     ),
 
@@ -150,18 +150,18 @@
         symbols: ["", "█", "", "█", ""],
 
         track_style: (
-            fg: "#42474e",
-            bg: "#101418"
+            fg: "#47464f",
+            bg: "#131318"
         ),
 
         elapsed_style: (
-            fg: "#9ecafc",
-            bg: "#101418"
+            fg: "#c4c0ff",
+            bg: "#131318"
         ),
 
         thumb_style: (
-            fg: "#9ecafc", 
-            bg: "#42474e"
+            fg: "#c4c0ff", 
+            bg: "#47464f"
         ),
 
         use_track_when_empty: false,
@@ -175,15 +175,15 @@
         symbols: ["┋", "█", "󰄿", "󰄼"],
 
         track_style: (
-            fg: "#42474e"
+            fg: "#47464f"
         ),
 
         ends_style: (
-            fg: "#bac8db"
+            fg: "#c7c4dc"
         ),
 
         thumb_style: (
-            fg: "#bac8db"
+            fg: "#c7c4dc"
         ),
     ),
 
@@ -193,13 +193,13 @@
 
     tab_bar: (
         active_style: (
-            fg: "#003256",
-            bg: "#9ecafc",
+            fg: "#2d2960",
+            bg: "#c4c0ff",
             modifiers: "Bold"
         ),
 
         inactive_style: (
-            fg: "#c2c7cf",
+            fg: "#c8c5d0",
             bg: "black"
         ),
     ),
@@ -228,9 +228,9 @@
         orientation: Bottom,
 
         bar_color: Gradient({
-            0:   "#bac8db",
-            20:  "#9ecafc",
-            55:  "#d5bee5",
+            0:   "#c7c4dc",
+            20:  "#c4c0ff",
+            55:  "#ebb9d0",
             100: "#ffb4ab",
         }),
     ),
@@ -268,7 +268,7 @@
                     (
                         kind: Text(""),
                         style: (
-                            fg: "#bac8db"
+                            fg: "#c7c4dc"
                         )
                     )
                 ])
@@ -291,7 +291,7 @@
                     (
                         kind: Text(""),
                         style: (
-                            fg: "#9ecafc"
+                            fg: "#c4c0ff"
                         )
                     )
                 ])
@@ -304,12 +304,12 @@
             prop: (
                 kind: Property(Album),
                 style: (
-                    fg: "#e0e2e8"
+                    fg: "#e5e1e9"
                 ),
                 default: (
                     kind: Text("Unknown Album"),
                     style: (
-                        fg: "#e0e2e8"
+                        fg: "#e5e1e9"
                     )
                 )
             ),
@@ -320,7 +320,7 @@
                     (
                         kind: Text("󰀥"),
                         style: (
-                            fg: "#d5bee5"
+                            fg: "#ebb9d0"
                         )
                     )
                 ])
@@ -343,7 +343,7 @@
                     (
                         kind: Text(" "),
                         style: (
-                            fg: "#c2c7cf"
+                            fg: "#c8c5d0"
                         )
                     )
                 ])
@@ -448,7 +448,7 @@
                 (
                     kind: Text("["),
                     style: (
-                        fg: "#bac8db",
+                        fg: "#c7c4dc",
                         modifiers: "Bold"
                     )
                 ),
@@ -459,14 +459,14 @@
                         stopped_label: ""
                     ))),
                     style: (
-                        fg: "#bac8db",
+                        fg: "#c7c4dc",
                         modifiers: "Bold"
                     )
                 ),
                 (
                     kind: Text("]"),
                     style: (
-                        fg: "#bac8db",
+                        fg: "#c7c4dc",
                         modifiers: "Bold"
                     )
                 ),
@@ -479,13 +479,13 @@
                 (
                     kind: Property(Song(Title)),
                     style: (
-                        fg: "#e0e2e8",
+                        fg: "#e5e1e9",
                         modifiers: "Bold"
                     ),
                     default: (
                         kind: Text("No Song"),
                         style: (
-                            fg: "#e0e2e8",
+                            fg: "#e5e1e9",
                             modifiers: "Bold"
                         )
                     )
@@ -517,13 +517,13 @@
                                 track: "─"
                             ),
                             filled_style: (
-                                fg: "#9ecafc"
+                                fg: "#c4c0ff"
                             ),
                             track_style: (
-                                fg: "#42474e"
+                                fg: "#47464f"
                             ),
                             thumb_style: (
-                                fg: "#bac8db"
+                                fg: "#c7c4dc"
                             ),
                         )
                     ))
@@ -536,7 +536,7 @@
                             (
                                 kind: Property(Status(Volume)),
                                 style: (
-                                    fg: "#bac8db"
+                                    fg: "#c7c4dc"
                                 )
                             )
                         ],
@@ -551,7 +551,7 @@
                             (
                                 kind: Text("%"),
                                 style: (
-                                    fg: "#bac8db"
+                                    fg: "#c7c4dc"
                                 )
                             )
                         ]
@@ -565,21 +565,21 @@
                 (
                     kind: Property(Status(Elapsed)),
                     style: (
-                        fg: "#c2c7cf"
+                        fg: "#c8c5d0"
                     )
                 ),
 
                 (
                     kind: Text(" / "),
                     style: (
-                        fg: "#8c9199"
+                        fg: "#928f99"
                     )
                 ),
 
                 (
                     kind: Property(Status(Duration)),
                     style: (
-                        fg: "#c2c7cf"
+                        fg: "#c8c5d0"
                     )
                 ),
 
@@ -588,19 +588,19 @@
                         (
                             kind: Text(" ("),
                             style: (
-                                fg: "#8c9199"
+                                fg: "#928f99"
                             )
                         ),
                         (
                             kind: Property(Status(Bitrate)),
                             style: (
-                                fg: "#d5bee5"
+                                fg: "#ebb9d0"
                             )
                         ),
                         (
                             kind: Text(" kbps)"),
                             style: (
-                                fg: "#8c9199"
+                                fg: "#928f99"
                             )
                         ),
                     ])
@@ -613,13 +613,13 @@
                 (
                     kind: Property(Song(Artist)),
                     style: (
-                        fg: "#9ecafc",
+                        fg: "#c4c0ff",
                         modifiers: "Bold"
                     ),
                     default: (
                         kind: Text("Unknown"),
                         style: (
-                            fg: "#9ecafc",
+                            fg: "#c4c0ff",
                             modifiers: "Bold"
                         )
                     )
@@ -628,19 +628,19 @@
                 (
                     kind: Text(" - "),
                     style: (
-                        fg: "#8c9199"
+                        fg: "#928f99"
                     )
                 ),
 
                 (
                     kind: Property(Song(Album)),
                     style: (
-                        fg: "#c2c7cf"
+                        fg: "#c8c5d0"
                     ),
                     default: (
                         kind: Text("Unknown Album"),
                         style: (
-                            fg: "#c2c7cf"
+                            fg: "#c8c5d0"
                         )
                     )
                 ),
@@ -664,7 +664,7 @@
                             (
                                 kind: Property(Status(InputBuffer())),
                                 style: (
-                                    fg: "#9ecafc"
+                                    fg: "#c4c0ff"
                                 )
                             )
                         ],
@@ -680,7 +680,7 @@
                             (
                                 kind: Text("["),
                                 style: (
-                                    fg: "#8c9199",
+                                    fg: "#928f99",
                                     modifiers: "Bold"
                                 )
                             ),
@@ -691,12 +691,12 @@
                                     off_label: "  ",
 
                                     on_style: (
-                                        fg: "#bac8db",
+                                        fg: "#c7c4dc",
                                         modifiers: "Bold"
                                     ),
 
                                     off_style: (
-                                        fg: "#c2c7cf",
+                                        fg: "#c8c5d0",
                                         modifiers: "Dim"
                                     ),
                                 )))
@@ -708,12 +708,12 @@
                                     off_label: "  ",
 
                                     on_style: (
-                                        fg: "#d5bee5",
+                                        fg: "#ebb9d0",
                                         modifiers: "Bold"
                                     ),
 
                                     off_style: (
-                                        fg: "#c2c7cf",
+                                        fg: "#c8c5d0",
                                         modifiers: "Dim"
                                     ),
                                 )))
@@ -726,12 +726,12 @@
                                     oneshot_label: " 󰮯 ",
 
                                     on_style: (
-                                        fg: "#9ecafc",
+                                        fg: "#c4c0ff",
                                         modifiers: "Bold"
                                     ),
 
                                     off_style: (
-                                        fg: "#c2c7cf",
+                                        fg: "#c8c5d0",
                                         modifiers: "Dim"
                                     ),
 
@@ -749,12 +749,12 @@
                                     oneshot_label: " 󰇊 ",
 
                                     on_style: (
-                                        fg: "#bac8db",
+                                        fg: "#c7c4dc",
                                         modifiers: "Bold"
                                     ),
 
                                     off_style: (
-                                        fg: "#c2c7cf",
+                                        fg: "#c8c5d0",
                                         modifiers: "Dim"
                                     ),
 
@@ -768,7 +768,7 @@
                             (
                                 kind: Text("]"),
                                 style: (
-                                    fg: "#8c9199",
+                                    fg: "#928f99",
                                     modifiers: "Bold"
                                 )
                             ),
@@ -785,21 +785,21 @@
                 (
                     kind: Property(Status(Elapsed)),
                     style: (
-                        fg: "#bac8db"
+                        fg: "#c7c4dc"
                     )
                 ),
 
                 (
                     kind: Text(" / "),
                     style: (
-                        fg: "#8c9199"
+                        fg: "#928f99"
                     )
                 ),
 
                 (
                     kind: Property(Status(Duration)),
                     style: (
-                        fg: "#bac8db"
+                        fg: "#c7c4dc"
                     )
                 ),
             ],
@@ -811,7 +811,7 @@
                 (
                     kind: Text(""),
                     style: (
-                        fg: "#9ecafc",
+                        fg: "#c4c0ff",
                         modifiers: "Bold"
                     )
                 )

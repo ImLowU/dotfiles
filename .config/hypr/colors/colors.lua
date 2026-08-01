@@ -1,4 +1,4 @@
-local colors = require("colors.custom.light-mountain-blue")
+local colors = require("colors.custom.mountain-noon")
 
 -----------------------
 ---- LOOK AND FEEL ----

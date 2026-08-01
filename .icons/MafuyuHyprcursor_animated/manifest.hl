@@ -1,0 +1,4 @@
+name = MafuyuHyprcursor_animated
+desciption = A Linux port of Mafuyu's cursor from Nightcord at 25:00.
+version = 0.1
+cursors_directory = hyprcursors

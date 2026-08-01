@@ -70,7 +70,7 @@ copiar_archivo "$THEME_DIR/hypr/colors.lua" "$HOME/.config/hypr/colors/colors.lu
 
 # Waybar
 info "Waybar"
-copiar_archivo "$THEME_DIR/waybar/colors.css" "$HOME/.config/waybar/colors/colors.css"
+copiar_archivo "$THEME_DIR/waybar/style.css" "$HOME/.config/waybar/style.css"
 
 # Fondo de pantalla
 info "Fondo de pantalla"

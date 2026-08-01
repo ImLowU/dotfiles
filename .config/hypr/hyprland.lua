@@ -66,6 +66,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("wl-paste --type image --watch cliphist store")
 	--
 	hl.exec_cmd("~/.config/hypr/scripts/start-apps-at-start.sh")
+	hl.exec_cmd("hyprctl setcursor Adwaita 24")
 end)
 
 -------------------------------
@@ -76,6 +77,7 @@ end)
 
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
+hl.env("HYPRCURSOR_THEME", "Adwaita")
 hl.env("QT_STYLE_OVERRIDE", "kvantum")
 hl.env("QT_QPA_PLATFORMTHEME", "qt6ct" )
 -----------------------
@@ -256,8 +258,8 @@ hl.bind(mainMod .. " + S", hl.dsp.workspace.toggle_special("magic"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
 
 -- Scroll through existing workspaces with mainMod + scroll
-hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
-hl.bind(mainMod .. " + mouse_up", hl.dsp.focus({ workspace = "e-1" }))
+hl.bind(mainMod .. " + Page_Down", hl.dsp.focus({ workspace = "e+1" }))
+hl.bind(mainMod .. " + Page_UP", hl.dsp.focus({ workspace = "e-1" }))
 
 -- Move/resize windows with mainMod + LMB/RMB and dragging
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
@@ -294,6 +296,7 @@ hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = tru
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
 
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("~/.config/waybar/scripts/launch.sh"))
+hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("wayscriber --daemon-toggle"))
 
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
@@ -357,6 +360,7 @@ hl.window_rule({
 	float = true,
 })
 
+
 -- Flameshot
 
 -- KEY BINDINGS
@@ -390,4 +394,10 @@ hl.window_rule({
 hl.window_rule({
     match = { class = "^codium$" },
     workspace = "2 silent",
+})
+
+-- Discord opens in workspace 8
+hl.window_rule({
+    match = { class = "^vesktop$" },
+    workspace = "8 silent",
 })

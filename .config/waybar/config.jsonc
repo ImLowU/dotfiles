@@ -15,8 +15,8 @@
         "hyprland/workspaces"
     ],
     "modules-center": [
-        "custom/notification",
         // "custom/media"
+        "custom/notification",
         "mpd"
     ],
     "modules-right": [
@@ -104,7 +104,7 @@
         "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
         "unknown-tag": "N/A",
         "interval": 5,
-        "max-length": 55,
+        "max-length": 30,
         "consume-icons": {
             "on": " "
         },
@@ -134,17 +134,17 @@
         }
     },
     "tray": {
-        "icon-size": 25,
-        "spacing": 10
-        // "icons": {
-        //   "blueman": "bluetooth",
-        //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
-        // }
+        "icon-size": 30,
+        "spacing": 10,
+         "icons": {
+//           "blueman": "bluetooth",
+//           "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+            "vesktop": "/home/lowu/Imágenes/Iconos/discord.png"
+         }
     },
     "clock": {
-        "format": "{:%H:%M}",
+        "format": "{:%H:%M | %d-%m-%Y}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%d-%m-%Y}"
     },
     "cpu": {
         "interval": 2,
@@ -276,8 +276,10 @@
     },
     "custom/launcher": {
         "format": "󰣇",
-        "on-click": "rofi -show drun -theme ~/.local/share/rofi/themes/minimal.rasi"
+        "on-click": "~/.config/hypr/scripts/wlogout.sh"
     },
+
+
     "custom/notification": {
         "tooltip": true,
         "format": "<span size='18pt'>{icon}</span>",

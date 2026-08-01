@@ -1,73 +1,52 @@
 {
-  "layer": "overlay",
-  "control-center-layer": "top",
-  "keyboard-shortcuts": true,
-  "transition-time": 200,
-  "hide-on-clear": false,
-  "hide-on-action": true,
-  "time-format": "%H:%M",
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+
   "positionX": "right",
   "positionY": "top",
-  "fit-to-screen": true,
-  "control-center-width": 360,
-  "control-center-height": 0,
-  "control-center-margin-top": 8,
-  "control-center-margin-bottom": 8,
-  "control-center-margin-right": 8,
-  "control-center-margin-left": 0,
+
+  "layer": "overlay",
+  "layer-shell": true,
+
+  "control-center-width": 420,
+  "control-center-height": 720,
+
   "notification-window-width": 380,
-  "notification-icon": true,
   "notification-icon-size": 48,
-  "app-icon-size": 20,
-  "notification-close-button-position": "right",
-  "notification-visibility": {},
-  "timeout": 10,
-  "timeout-low": 5,
+  "notification-body-image-height": 120,
+  "notification-body-image-width": 200,
+
+  "timeout": 8,
+  "timeout-low": 4,
   "timeout-critical": 0,
+
+  "fit-to-screen": true,
+  "keyboard-shortcuts": true,
+  "image-visibility": "when-available",
+  "transition-time": 200,
+
+  "control-center-margin-top": 12,
+  "control-center-margin-right": 12,
+  "notification-window-margin": 12,
+
   "widgets": [
     "title",
     "dnd",
-    "buttons-grid",
-    "volume",
-    "backlight",
-    "mpris",
     "notifications"
   ],
+
   "widget-config": {
     "title": {
-      "text": "Notification Center",
+      "text": "Notificaciones",
       "clear-all-button": true,
-      "button-text": "Clear All"
+      "button-text": "Limpiar"
     },
+
     "dnd": {
-      "text": "Do Not Disturb"
+      "text": "No molestar"
     },
-    "buttons-grid": {
-      "actions": [
-        {
-          "label": "",
-          "command": "swaync-client -cp; sleep 0.3; flameshot gui;"
-        },
-        {
-          "label": "󰪚",
-          "command": "swaync-client -cp; galculator"
-        }
-      ]
-    },
-    "mpris": {
-      "image-size": 56,
-      "blur-image": false
-    },
-    "volume": {
-      "label": "󰕾 ",
-      "show-per-app": false
-    },
-    "backlight": {
-      "label": "󰃠 ",
-      "device": "intel_backlight"
-    },
+
     "notifications": {
-      "notification-visibility": {}
+      "show-scrollbar": false
     }
   }
 }

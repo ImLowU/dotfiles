@@ -1,4 +1,7 @@
 {
   "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Font Awesome 7 Free', monospace",
-  "workbench.colorTheme": "Starfall"
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2
 }

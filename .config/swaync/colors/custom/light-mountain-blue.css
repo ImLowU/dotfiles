@@ -1,39 +1,15 @@
-* {
-  --bg-panel: rgb(16, 20, 24);
-  --bg-widget: rgb(29, 32, 36);
+/*
+ * Dracula for SwayNotificationCenter (swaync)
+ * https://draculatheme.com
+ *
+ * Drop this file in as `~/.config/swaync/style.css`, then reload:
+ *   swaync-client --reload-css
+ *
+ * Palette: https://spec.draculatheme.com
+ *
+ * Colours are all in the :root block below.
+ */
 
-  --bg-tile: rgb(39, 42, 47);
-  --bg-tile-hover: rgb(50, 53, 58);
-
-  --bg-critical: rgb(147, 0, 10);
-  --bg-critical-hover: rgb(147, 0, 10);
-
-  --border-critical: rgb(255, 180, 171);
-  --shadow-critical: rgb(255, 180, 171);
-
-  --btn-on: rgb(158, 202, 252);
-  --btn-off: rgb(224, 226, 232);
-
-  --accent: #9ecafc;
-  --accent-dim: rgb(158, 202, 252);
-  --hover-dim: rgb(39, 42, 47);
-
-  --border-subtle: rgb(140, 145, 153);
-  --border-glass: rgb(66, 71, 78);
-
-  --text-primary: rgb(224, 226, 232);
-  --text-secondary: rgb(194, 199, 207);
-
-  --text-dim: rgb(194, 199, 207);
-  --text-hover: rgb(0, 50, 86);
-
-  --slider: rgb(158, 202, 252);
-
-  --radius-panel: 20px;
-  --radius-widget: 10px;
-  --radius-tile: 12px;
-  --radius-btn: 8px;
-
-  --t-fast: 150ms ease;
-  --t-mid: 220ms ease;
+:root {
+  --theme: #34a2fa;
 }

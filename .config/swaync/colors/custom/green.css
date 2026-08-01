@@ -1,0 +1,15 @@
+/*
+ * Dracula for SwayNotificationCenter (swaync)
+ * https://draculatheme.com
+ *
+ * Drop this file in as `~/.config/swaync/style.css`, then reload:
+ *   swaync-client --reload-css
+ *
+ * Palette: https://spec.draculatheme.com
+ *
+ * Colours are all in the :root block below.
+ */
+
+:root {
+  --theme: #64ab5f;
+}
