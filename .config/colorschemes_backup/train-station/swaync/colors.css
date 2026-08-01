@@ -1,0 +1,39 @@
+* {
+  --bg-panel: rgb(25, 17, 20);
+  --bg-widget: rgb(37, 29, 32);
+
+  --bg-tile: rgb(48, 40, 43);
+  --bg-tile-hover: rgb(59, 50, 54);
+
+  --bg-critical: rgb(147, 0, 10);
+  --bg-critical-hover: rgb(147, 0, 10);
+
+  --border-critical: rgb(255, 180, 171);
+  --shadow-critical: rgb(255, 180, 171);
+
+  --btn-on: rgb(254, 176, 211);
+  --btn-off: rgb(238, 223, 227);
+
+  --accent: #feb0d3;
+  --accent-dim: rgb(254, 176, 211);
+  --hover-dim: rgb(48, 40, 43);
+
+  --border-subtle: rgb(157, 141, 146);
+  --border-glass: rgb(80, 67, 72);
+
+  --text-primary: rgb(238, 223, 227);
+  --text-secondary: rgb(212, 194, 200);
+
+  --text-dim: rgb(212, 194, 200);
+  --text-hover: rgb(82, 29, 58);
+
+  --slider: rgb(254, 176, 211);
+
+  --radius-panel: 20px;
+  --radius-widget: 10px;
+  --radius-tile: 12px;
+  --radius-btn: 8px;
+
+  --t-fast: 150ms ease;
+  --t-mid: 220ms ease;
+}

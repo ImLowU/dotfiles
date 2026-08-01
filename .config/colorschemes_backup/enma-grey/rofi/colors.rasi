@@ -1,0 +1,11 @@
+
+/*****----- Global Properties -----*****/
+* {
+    background:                  #0f1417;
+    background-alt:              #41484d;
+    foreground:                  #dfe3e7;
+    selected:                    #90cef4;
+    active:                      #90cef4;
+    on-active:                   #00344a;
+    urgent:                      #ffb4ab;
+}
