@@ -1,0 +1,28 @@
+{
+    "checksum": "adc02d34deb7745d1ed01e5de89ffc46",
+    "wallpaper": "/home/lowu/Im\u00e1genes/monta\u00f1a_paisaje.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101526",
+        "foreground": "#c3c4c8",
+        "cursor": "#c3c4c8"
+    },
+    "colors": {
+        "color0": "#101526",
+        "color1": "#48455B",
+        "color2": "#544F67",
+        "color3": "#6B5B73",
+        "color4": "#86677D",
+        "color5": "#96768A",
+        "color6": "#C17E87",
+        "color7": "#c3c4c8",
+        "color8": "#5f6374",
+        "color9": "#48455B",
+        "color10": "#544F67",
+        "color11": "#6B5B73",
+        "color12": "#86677D",
+        "color13": "#96768A",
+        "color14": "#C17E87",
+        "color15": "#c3c4c8"
+    }
+}

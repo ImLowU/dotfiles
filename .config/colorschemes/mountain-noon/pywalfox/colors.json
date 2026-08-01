@@ -1,0 +1,30 @@
+{
+  "wallpaper": "/home/lowu/Imágenes/Wallpapers/montaña_paisaje.jpg",
+  "alpha": "100",
+
+  "special": {
+    "background": "#131318",
+    "foreground": "#e5e1e9",
+    "cursor": "#c4c0ff"
+  },
+
+  "colors": {
+    "color0": "#0e0e13",
+    "color1": "#ffb4ab",
+    "color2": "#ebb9d0",
+    "color3": "#c4c0ff",
+    "color4": "#c7c4dc",
+    "color5": "#434078",
+    "color6": "#464559",
+    "color7": "#c8c5d0",
+
+    "color8": "#2a292f",
+    "color9": "#93000a",
+    "color10": "#c4c0ff",
+    "color11": "#ebb9d0",
+    "color12": "#c7c4dc",
+    "color13": "#434078",
+    "color14": "#e5e1e9",
+    "color15": "#e5e1e9"
+  }
+}

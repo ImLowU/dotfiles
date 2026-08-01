@@ -1,0 +1,335 @@
+ /**
+
+* @name system24
+
+* @description a tui-like discord theme.
+
+* @author refact0r
+
+* @version 2.0.0
+
+* @invite nz87hXyvcy
+
+* @website https://github.com/refact0r/system24
+
+* @source https://github.com/refact0r/system24/blob/master/theme/system24.theme.css
+
+* @authorId 508863359777505290
+
+* @authorLink https://www.refact0r.dev
+
+*/
+
+
+/* import theme modules */
+
+@import url('https://refact0r.github.io/system24/build/system24.css');
+
+
+body {
+
+/* font, change to '' for default discord font */
+
+--font: 'DM Mono'; /* change to '' for default discord font */
+
+--code-font: 'DM Mono'; /* change to '' for default discord font */
+
+font-weight: 300 /* normal text font weight. DOES NOT AFFECT BOLD TEXT */;
+
+
+/* sizes */
+
+--gap: 12px; /* spacing between panels */
+
+--divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
+
+--border-thickness: 2px; /* thickness of borders around main panels. DOES NOT AFFECT OTHER BORDERS */
+
+--border-hover-transition: 0.2s ease; /* transition for borders when hovered */
+
+
+/* animation/transition options */
+
+--animations: on; /* off: disable animations/transitions, on: enable animations/transitions */
+
+--list-item-transition: 0.2s ease; /* transition for list items */
+
+--dms-icon-svg-transition: 0.4s ease; /* transition for the dms icon */
+
+
+/* top bar options */
+
+--top-bar-height: var(--gap); /* height of the top bar (discord default is 36px, old discord style is 24px, var(--gap) recommended if button position is set to titlebar) */
+
+--top-bar-button-position: titlebar; /* off: default position, hide: hide buttons completely, serverlist: move inbox button to server list, titlebar: move inbox button to channel titlebar (will hide title) */
+
+--top-bar-title-position: off; /* off: default centered position, hide: hide title completely, left: left align title (like old discord) */
+
+--subtle-top-bar-title: off; /* off: default, on: hide the icon and use subtle text color (like old discord) */
+
+
+/* window controls */
+
+--custom-window-controls: off; /* off: default window controls, on: custom window controls */
+
+--window-control-size: 14px; /* size of custom window controls */
+
+
+/* dms button options */
+
+--custom-dms-icon: off; /* off: use default discord icon, hide: remove icon entirely, custom: use custom icon */
+
+--dms-icon-svg-url: url(''); /* icon svg url. MUST BE A SVG. */
+
+--dms-icon-svg-size: 90%; /* size of the svg (css mask-size property) */
+
+--dms-icon-color-before: var(--icon-secondary); /* normal icon color */
+
+--dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
+
+--custom-dms-background: off; /* off to disable, image to use a background image (must set url variable below), color to use a custom color/gradient */
+
+--dms-background-image-url: url(''); /* url of the background image */
+
+--dms-background-image-size: cover; /* size of the background image (css background-size property) */
+
+--dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */
+
+
+/* background image options */
+
+--background-image: off; /* off: no background image, on: enable background image (must set url variable below) */
+
+--background-image-url: url(''); /* url of the background image */
+
+
+/* transparency/blur options */
+
+/* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
+
+--transparency-tweaks: off; /* off: no changes, on: remove some elements for better transparency */
+
+--remove-bg-layer: off; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
+
+--panel-blur: off; /* off: no changes, on: blur the background of panels */
+
+--blur-amount: 12px; /* amount of blur */
+
+--bg-floating: var(--bg-3); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on */
+
+
+/* other options */
+
+--small-user-panel: on; /* off: default user panel, on: smaller user panel like in old discord */
+
+
+/* unrounding options */
+
+--unrounding: on; /* off: default, on: remove rounded corners from panels */
+
+
+/* styling options */
+
+--custom-spotify-bar: on; /* off: default, on: custom text-like spotify progress bar */
+
+--ascii-titles: on; /* off: default, on: use ascii font for titles at the start of a channel */
+
+--ascii-loader: system24; /* off: default, system24: use system24 ascii loader, cats: use cats loader */
+
+
+/* panel labels */
+
+--panel-labels: on; /* off: default, on: add labels to panels */
+
+--label-color: var(--text-muted); /* color of labels */
+
+--label-font-weight: 500; /* font weight of labels */
+
+}
+
+
+:root {
+    --colors: on;
+
+    /* ===========================
+       TEXT
+    =========================== */
+
+    --text-0: #d0e4ff;
+    --text-1: #e0e2e8;
+    --text-2: #c2c7cf;
+    --text-3: color-mix(
+        in srgb,
+        #e0e2e8 82%,
+        transparent
+    );
+    --text-4: #8c9199;
+    --text-5: #42474e;
+
+
+    /* ===========================
+       SURFACES
+    =========================== */
+
+    --bg-1: #0b0e12;
+    --bg-2: #101418;
+    --bg-3: #191c20;
+    --bg-4: #1d2024;
+
+    --hover: color-mix(
+        in srgb,
+        #9ecafc 8%,
+        transparent
+    );
+
+    --active: color-mix(
+        in srgb,
+        #9ecafc 15%,
+        transparent
+    );
+
+    --active-2: color-mix(
+        in srgb,
+        #9ecafc 24%,
+        transparent
+    );
+
+    --message-hover: color-mix(
+        in srgb,
+        #9ecafc 6%,
+        transparent
+    );
+
+
+    /* ===========================
+       PRIMARY
+    =========================== */
+
+    --accent-1: #d0e4ff;
+    --accent-2: #9ecafc;
+    --accent-3: #154974;
+    --accent-4: #33618d;
+    --accent-5: #d0e4ff;
+
+    --accent-new: #ffb4ab;
+
+
+    /* ===========================
+       MESSAGE STATES
+    =========================== */
+
+    --mention:
+        linear-gradient(
+            to right,
+            color-mix(
+                in srgb,
+                #9ecafc 18%,
+                transparent
+            ),
+            transparent 70%
+        );
+
+    --mention-hover:
+        linear-gradient(
+            to right,
+            color-mix(
+                in srgb,
+                #9ecafc 26%,
+                transparent
+            ),
+            transparent 70%
+        );
+
+    --reply:
+        linear-gradient(
+            to right,
+            color-mix(
+                in srgb,
+                #bac8db 10%,
+                transparent
+            ),
+            transparent 70%
+        );
+
+    --reply-hover:
+        linear-gradient(
+            to right,
+            color-mix(
+                in srgb,
+                #bac8db 18%,
+                transparent
+            ),
+            transparent 70%
+        );
+
+
+    /* ===========================
+       STATUS INDICATORS
+       =========================== */
+
+    --online: #5ad50d;
+    --dnd: #c50b0b;
+    --idle: #f3b714;
+    --streaming: #8b07f8;
+    --offline: #4F444A;
+
+
+    /* ===========================
+       BORDERS
+    =========================== */
+
+    --border-light: color-mix(
+        in srgb,
+        #42474e 25%,
+        transparent
+    );
+
+    --border: #42474e;
+
+    --border-hover: #9ecafc;
+
+    --button-border: color-mix(
+        in srgb,
+        #8c9199 30%,
+        transparent
+    );
+
+
+    /* ===========================
+       BASE COLORS
+    =========================== */
+
+    --red-1: #93000a;
+    --red-2: #ffb4ab;
+    --red-3: #ffb4ab;
+    --red-4: #ffb4ab;
+    --red-5: #ffdad6;
+
+
+    --green-1: #514060;
+    --green-2: #d5bee5;
+    --green-3: #d5bee5;
+    --green-4: #f1dbff;
+    --green-5: #3a2a48;
+
+
+    --blue-1: #3b4857;
+    --blue-2: #bac8db;
+    --blue-3: #bac8db;
+    --blue-4: #d6e4f7;
+    --blue-5: #243140;
+
+
+    --yellow-1: #514060;
+    --yellow-2: #d5bee5;
+    --yellow-3: #d5bee5;
+    --yellow-4: #f1dbff;
+    --yellow-5: #3a2a48;
+
+
+    --purple-1: #d0e4ff;
+    --purple-2: #9ecafc;
+    --purple-3: #154974;
+    --purple-4: #33618d;
+    --purple-5: #d0e4ff;
+}

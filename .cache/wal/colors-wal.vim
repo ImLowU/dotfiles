@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/lowu/Imágenes/Wallpapers/light_montaña_paisaje.jpg"
+let background = "#1d2543"
+let foreground = "#c6c8d0"
+let cursor     = "#c6c8d0"
+
+" Colors
+let color0  = "#1d2543"
+let color1  = "#2D9BFA"
+let color2  = "#39A7FA"
+let color3  = "#48B5F9"
+let color4  = "#5DB9F5"
+let color5  = "#57C5F8"
+let color6  = "#6ACFF9"
+let color7  = "#c6c8d0"
+let color8  = "#6b7084"
+let color9  = "#2D9BFA"
+let color10 = "#39A7FA"
+let color11 = "#48B5F9"
+let color12 = "#5DB9F5"
+let color13 = "#57C5F8"
+let color14 = "#6ACFF9"
+let color15 = "#c6c8d0"
